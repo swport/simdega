@@ -1,0 +1,999 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-selection { 
+    background: rgba(5, 16, 52,.6);
+    color: #fff; 
+}
+::-ms-selection { 
+    background: rgba(5, 16, 52,.6);
+    color: #fff; 
+}
+::-moz-selection { 
+    background: rgba(5, 16, 52,.6);
+    color: #fff; 
+}
+::selection { 
+    background: rgba(5, 16, 52,.6);
+    color: #fff; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:rgb(31, 31, 31);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul,li {
+    list-style-type: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p,
+ol,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+/* ========== Comman CSS ========== */
+.heading h2 {
+    font-weight: 400;
+}
+.font-weight-semibold {
+    font-weight: 500!important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.mx-100 {
+    max-width: 100px;
+}
+.mx-150 {
+    max-width: 150px;
+}
+.mx-220 {
+    max-width: 220px;
+}
+.mx-300 {
+    max-width: 300px;
+}
+.mx-500 {
+    max-width: 500px;
+}
+.mx-600 {
+    max-width: 600px;
+}
+.mx-700 {
+    max-width: 700px;
+}
+.mx-1000 {
+    max-width: 1000px;
+}
+.container-md {
+    max-width: 1200px;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat!important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #000;
+}
+.z-index-9 {
+    position: relative;
+    z-index: 9;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+label {
+    color: #727272;
+    font-weight: 500;
+    font-size: 14px;
+}
+.grey-gradient {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bullets {
+    display: inline-block;
+    height: 30px;
+    min-width: 30px;
+    background: rgba(5, 16, 52,.2);
+    border-radius: 100%;
+    position: relative;
+}
+.bullets.md {
+    height: 50px;
+    min-width: 50px;
+}
+.bullets:before {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #051034;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bullets.md:before {
+    height: 16px;
+    width: 16px;
+}
+.blue-gradient-border:before {
+    content: '';
+    left: 15px;
+    right: 15px;
+    top: 0;
+    /* bottom: 0; */
+    height: 3px;
+    max-width: 1200px;
+    margin: auto;
+    background: -webkit-linear-gradient(to right, #ffffff, #051034, #ffffff);
+    position: absolute;
+    background: linear-gradient(to right, #ffffff, #051034, #ffffff);
+}
+/* ========== End Comman CSS ========== */
+
+/* ========== Background Color CSS ========== */
+.bg-black {
+    background-color: #000000!important;
+}
+.bg-sm-grey {
+    background-color: #f7f7f7!important;
+}
+.bg-blue {
+    background-color: #051034!important;
+}
+/* ========== End Background Color CSS ========== */
+
+/* ========== Color CSS ========== */
+.text-black {
+    color: #000!important;
+}
+.text-gray {
+    color: rgb(95, 95, 95);
+}
+.contact-us-wrapper .contact-number *,
+.text-darkGrey {
+    color: #9e9e9e!important;
+}
+.text-fadeBlack {
+    color: #727272!important
+}
+footer .contact-number * {
+    color: #ffffff!important;
+}
+/* ========== End Color CSS ========== */
+
+/* ========== Comman Button CSS ========== */
+.btn {
+    border:0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: 0!important;
+    padding: 8px 20px;
+    -webkit-box-shadow: 0 3px 10px 4px rgba(0,0,0,.125);
+    box-shadow: 0 3px 10px 4px rgba(0,0,0,.125);
+}
+button,
+.form-control,
+.form-control:focus {
+    outline: 0!important;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #000;
+}
+.btn-hvr-shutter {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btn-hvr-shutter:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.btn-hvr-shutter:hover:before,
+.btn-hvr-shutter:focus:before, 
+.btn-hvr-shutter:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Yellow Button */
+.btn-blue {
+    background-color: #051034;
+    color: #fff;
+}
+.btn-blue.btn-hvr-shutter {
+    background-color: #051034;
+}
+.btn-blue.btn-hvr-shutter:before {
+    background-color: #fff;
+}
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
+    color: #051034;
+}
+/* End Yellow Button */
+
+/* black Button */
+.btn-grey {
+    background-color: grey;
+    color: #ffffff;
+}
+.btn-grey.btn-hvr-shutter {
+    background-color: grey;
+}
+.btn-grey.btn-hvr-shutter:before {
+    background-color: #051034;
+}
+.btn-grey:hover,
+.btn-grey:active,
+.btn-grey:focus {
+    color: #fff;
+}
+/* End black Button */
+
+/* white Button */
+.btn-white {
+    background-color: #ffffff;
+    color: #000000;
+}
+.btn-white.btn-hvr-shutter {
+    background-color: #ffffff;
+}
+.btn-white.btn-hvr-shutter:before {
+    background-color: #051034;
+}
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+    color: #fff;
+}
+/* End white Button */
+
+/* ========== End Comman Button CSS ========== */
+
+/* ========== Form Realted Comman CSS ========== */
+.resize-none {
+    resize: none;
+}
+.mh-150 {
+    min-height: 150px;
+}
+
+/* Custom Checkbox */
+.custom-checkbox input[type="checkbox"] {
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.custom-checkbox .checkmark .check:before {
+    content: '';
+    height: 22px;
+    width: 22px;
+    border: 1px solid #8b837f;
+    display: inline-block;
+    -webkit-border-radius:3px;
+    -ms-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.custom-checkbox.white .checkmark .check:before {
+    border: 1px solid #fff;
+}
+.custom-checkbox.white .checkmark{
+    color:#fff;
+}
+.checkmark {
+    cursor: pointer;
+}
+.checkmark > span {
+    display: inline-block;
+    line-height: 16px;
+}
+.custom-checkbox input:checked ~ .checkmark .check:after {
+    content: '';
+    height: 8px;
+    width: 15px;
+    display: inline-block;
+    border: 2px solid #000000;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 4px;
+    top: 6px;
+    border-width: 0px 0px 3px 3px;
+}
+.custom-checkbox .check {
+    position: relative;
+    height: 22px;
+}
+.custom-checkbox input:checked ~ .checkmark .check:before {
+    background: #fcd048;
+    border-color: #fcd048;
+}
+/* End Custom Checkbox */
+
+/* ========== End Form Realted Comman CSS ========== */
+
+/* ========== CSS for Header section ========== */
+.site-header {
+    -webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+    box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+}
+.navbar {
+    z-index: 10;
+}
+.navbar-nav .nav-item {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.navbar-nav .nav-item:last-child {
+    padding-right: 0;
+}
+.navbar-brand {
+    max-width: 86px;
+}
+.navbar-brand img {
+    width: 100%;
+}
+.logo-name h1 {
+    font-size: 24px;
+    color: #051034;
+}
+.logo-name p {
+    font-size: 14px;
+    padding-top: 4px;
+}
+.navbar-nav .nav-link {
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    background-color: #151515;
+    background-image: -webkit-linear-gradient(left, #151515 0%, #151515 50%, transparent 50%);
+    background-image: linear-gradient(left, #151515 0%, #151515 50%, transparent 50%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 12px 15px 12px 15px;
+}
+.navbar-nav .nav-link:after {
+    content: '';
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(to right, #051034, #051034);
+    background-image: linear-gradient(to right, #051034, #051034);
+    position: absolute;
+}
+.navbar-nav .active > .nav-link,
+.navbar-nav .nav-link:hover {
+    background-position: 0 0;
+    color: transparent;
+}
+.navbar-nav .active > .nav-link:after,
+.navbar-nav .nav-link:hover:after {
+    right: 0;
+}
+.hs-has-sub-menu:after {
+    content: '';
+    height: 6px;
+    width: 6px;
+    border: 2px solid black;
+    display: inline-block;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.u-header__sub-menu-nav-link {
+    font-weight: 400!important;
+    font-size: 14px;
+}
+.u-header__mega-menu-col .list-unstyled li:not(:first-child) {
+    margin-top: 10px;
+}
+nav .fa-angle-down {
+    color: #000;
+}
+.menu-icon {
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    box-shadow: 0px 6px 10px 1px rgba(0,0,0,.15);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+    background-size: 25px;
+    background-color: #3d3d3d;
+}
+.menu-icon.sm {
+    height: 36px;
+    width: 36px;
+    background-size: 20px;
+}
+/* ========== End CSS for Header section  ========== */
+
+/* ========== CSS for Hamburger Menu ========== */
+.navbar-toggler-icon {
+    width: 26px;
+    height: 16px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+.navbar-toggler-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #000;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.navbar-toggler-icon span:nth-child(1) {
+    top: 0px;
+}
+.navbar-toggler-icon span:nth-child(2),
+.navbar-toggler-icon span:nth-child(3) {
+    top: 8px;
+}
+.navbar-toggler-icon span:nth-child(4) {
+    top: 16px;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(1), 
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(4) {
+    top: 9px;
+    opacity: 0;
+}
+/* ========== End CSS for Hamburger Menu ========== */
+
+/* ========== CSS for Index Banner Slider ========== */
+.overlay-black:before {
+    content: '';
+    background-color: rgba(0,0,0,.35);
+    z-index: 1;
+}
+.overlay-black:before,
+.index-banner-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#banner-slider .item {
+    max-height: 500px;
+    /* min-height: 260px; */
+}
+
+/* ========== End CSS for Index Banner Slider ========== */
+
+/* ========== CSS for Footer Section ========== */
+footer .container {
+    z-index: 2;
+}
+.footer-logo {
+    max-width: 90px;
+    background: #fff;
+    display: inline-block;
+    padding: 2px 0px 0px 2px;
+}
+.subscription-form .form-control {
+    height: 60px;
+    padding: 10px 160px 10px 30px;
+}
+.subscription-form .btn {
+    right: 0;
+    top: 0;
+    padding: .95rem 3rem;
+    position: absolute;
+    font-size: 20px;
+}
+.copyright-content-block:before,
+.line-after:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #5e5e5e;
+}
+.copyright-content-block:before {
+    top:0;
+    background: #fff;
+}
+footer .line-after:before {
+    background: #fff;
+}
+.line-after:before {
+    bottom: 0;
+    height: 3px;
+    max-width: 30px;
+}
+.social-links>li:not(:first-child) {
+    padding-left: 25px;
+}
+.social-links>li> a {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.social-links>li> a:after {
+    content: '';
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    border: 2px solid #fff;
+    left: -4px;
+    top: -5px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: transform .3s ease-in-out;
+    -ms-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+.social-links>li> a:hover:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+.footer-links-list a {
+    color: #fff;
+    margin: 5px 0;
+    display: inline-block;
+}
+/* .footer-links-list a:hover {
+    letter-spacing: 1.5px;
+} */
+.footer-links-list a:hover,
+.social-links>li> a:hover i  {
+    color: #fff;
+}
+.language-selection + .select2-container {
+    min-width: 110px;
+}
+.language-selection + .select2-container--default .select2-selection--single {
+    border: 0;
+    background-color: #000000;
+    outline: 0;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.language-selection + .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff;
+    padding-left: 0;
+}
+/* ========== CSS for Footer Section ========== */
+
+/* ========== CSS Inner page Banner ========== */
+.heading,
+.hover-link,
+.about-us-wrapper .testimonial-section {
+    position: relative;
+}
+.inner-page-banner {
+    height: 50vh;
+    background-color: #ffdc6f;
+    overflow: hidden;
+}
+.inner-banner-block {
+    margin-top: -45px;
+}
+.border-effect:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: rgb(95, 95, 95);
+    height: 3px;
+    width: 0;
+    margin: auto;
+}
+.wavesshape {
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: auto;
+    width: 100%;
+}
+.wavesshape.shape {
+    bottom: -80px;
+    height: auto;
+}
+/* ========== End CSS Inner page Banner ========== */
+
+/* ========== CSS Contact Us Page ========== */
+.map-container{
+    position: relative;
+    width: 100%;
+}
+.map-container > * {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/* ========== End CSS Contact Us Page ========== */
+  
+/* ========== CSS for FAQ's Page ========== */
+.question-list .card-body p {
+    line-height: 25px;
+    color: #727272;
+}
+.accordion-button {
+    text-decoration: none!important;
+    font-weight: 500;
+    color: #4c4981;
+}
+.accordion-button:hover,
+.accordion-button[aria-expanded="true"] {
+    color: #f3b835;
+}
+.accordion-button i {
+    position: absolute;
+    right: 0;
+    top: 17px;
+    font-size: 22px;
+}
+.accordion-button[aria-expanded="true"] i {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* ========== End CSS for FAQ's Page ========== */
+
+/* ========== CSS for Back To Top Button ========== */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 36px;
+    width: 36px;
+    font-size: 22px;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    background-color: #3d3d3d;
+}
+.back-to-top.shown {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+    pointer-events: all;
+}
+/* ========== End CSS for Back To Top Button ========== */
+
+/* ========== CSS for About Us Page ========== */
+.about-descripton p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.client-list {
+    max-width: 1100px;
+}
+.client-logo {
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.05);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,.05);
+}
+.client-logo:after {
+    content: '';
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    top: 8px;
+    border: 1px solid #000;
+    position: absolute;
+    transform: scale(.9);
+    opacity: 0;
+}
+.client-logo:hover {
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,.05);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,.05);
+    transform: translateY(-2px);
+}
+.client-logo:hover:after {
+    transform: scale(1);
+    opacity: 1;
+}
+.client-logo:hover,
+.client-logo:hover:after {
+    border: 1px solid #cc9a04;
+}
+.row-reverse-content > .row + .row {
+    padding-top: 50px;
+}
+.principal-speaks .row-reverse-content > .row + .row {
+    padding-top: 100px;
+}
+#how-it-work .card,
+.blog-list .card {
+    -webkit-box-shadow: 1px 9px 15px 2px rgba(0,0,0, .25);
+    box-shadow: 1px 9px 15px 2px rgba(0,0,0, .25);
+}
+#how-it-work .card:hover,
+.blog-list .card:hover {
+    -webkit-box-shadow: 1px 9px 20px 4px rgba(0,0,0, .25);
+    box-shadow: 1px 9px 20px 4px rgba(0,0,0, .25);
+}
+#how-it-work .card .thumbnail,
+#how-it-work .card .thumbnail img,
+.blog-list .card .thumbnail,
+.blog-list .card .thumbnail img {
+    border-radius: 12px 12px 0 0;
+}
+#how-it-work .card-text {
+    min-height: 145px;
+}
+#how-it-work .card:hover img,
+.blog-list .card:hover img {
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
+}
+#how-it-work .overlay-black:before,
+.blog-list .overlay-black:before {
+    background-color: rgba(0,0,0,.35);
+}
+#client-list-slider .owl-item img {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.client-logo:hover img {
+    -webkit-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -moz-transform: scale(.95);
+    transform: scale(.95);
+}
+/* ========== End CSS for About Us Page ========== */
+
+/* ========== CSS for Owl Nav ========== */
+.owl-nav-style .owl-nav button {
+    background: #051034!important;
+    height: 36px;
+    width: 36px;
+    -webkit-border-radius: 0%!important;
+    border-radius: 0%!important;
+    position: relative;
+    -webkit-box-shadow: 0px 3px 9px 1px rgba(0,0,0, .25);
+    box-shadow: 0px 3px 9px 1px rgba(0,0,0, .25);
+}
+.owl-nav-style.sm .owl-nav button {
+    height: 28px;
+    width: 28px;
+}
+.owl-side-nav .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.owl-side-nav .owl-nav button {
+    position: absolute;
+}
+.owl-side-nav .owl-nav button.owl-prev {
+    left: 0;
+}
+.owl-side-nav .owl-nav button.owl-next {
+    right: 0;
+}
+.owl-nav-style .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+.owl-nav-style .owl-nav button span {
+    font-size: 0;
+}
+.owl-nav-style .owl-nav button span:before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 12px;
+    height: 12px;
+    width: 12px;
+    border: 3px solid #fff;
+    border-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.owl-nav-style.sm .owl-nav button span:before {
+    left: 11px;
+    top: 10px;
+    height: 9px;
+    width: 9px;
+}
+.owl-nav-style .owl-nav button.owl-prev span:before {
+    border-top: 0;
+    border-right: 0;
+}
+.owl-nav-style .owl-nav button.owl-next span:before {
+    border-bottom: 0;
+    border-left: 0;
+}
+.owl-nav-style .owl-nav button.owl-next span:before {
+    left: 10px;
+}
+.owl-nav-style.sm .owl-nav button.owl-next span:before {
+    left: 8px;
+}
+/* ========== End CSS for Owl Nav ========== */
+
+/* ========== CSS for principal Speaks Section ========== */
+.principal-image span {
+    -webkit-box-shadow: 6px 8px 20px 6px rgba(0,0,0,.25);
+    box-shadow: 6px 8px 20px 6px rgba(0,0,0,.25);
+}
+.principal-image img {
+    height: 100%;
+    width: 100%;
+}
+.principal-comment p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.principal-image:before {
+    content: '';
+    background: rgb(5, 16, 52);
+    position: absolute;
+    z-index: 0;
+    left: 8%;
+    right: -8%;
+    bottom: -8%;
+    top: 7%;
+}
+.principal-comment .fa-quote-left {
+    font-size: 36px;
+    color: #050f30;
+}
+.section-shape svg {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2);
+}
+.shape-top {
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+/* ========== End CSS for principal Speaks Section ========== */
+.word-break {
+    word-break: break-word;
+}
+.office-msg marquee {
+    font-size: 20px;
+    color: white;
+    background: #051034;
+}
+.map-container{
+    position: relative;
+    width: 100%;
+}
+.map-container > * {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.get-in-touch .fas {
+    min-width: 20px;
+}

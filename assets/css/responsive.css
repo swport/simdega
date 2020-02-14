@@ -1,0 +1,564 @@
+/* Small devices (portrait phones, 576px and up) */
+@media (min-width: 320px) {
+    /* ========== Comman CSS ========== */
+    .font-12 {
+        font-size: 12px;
+    }
+    .img-1x,
+    .img-1x > img {
+        height: 34px;
+        width: 34px;
+    }
+    .img-2x,
+    .img-2x > img {
+        height: 60px;
+        width: 60px;
+    }
+    .img-3x,
+    .img-3x > img {
+        height: 120px;
+        width: 120px;
+    }
+    .list-top-space > li:not(:first-child),
+    .list-top-space > div:not(:first-child) {
+        padding-top: 15px;
+    }
+    .list-top-space-md > li:not(:first-child),
+    .list-top-space-md > div:not(:first-child) {
+        padding-top: 10px;
+    }
+    .list-top-space-sm > li:not(:first-child),
+    .list-top-space-sm > div:not(:first-child) {
+        padding-top: 8px;
+    }
+    .heading h2 {
+        font-size: 20px;
+    }
+    .heading.lg h2 {
+        font-size: 22px;
+    }
+    .subheading h4 {
+        font-size: 15px;
+    }
+    .subheading h3 {
+        font-size: 16px;
+    }
+    .h-100vh {
+        height: 100vh!important;
+    }
+    .heading.line-after:before {
+        max-width: 110px;
+        margin-left: 0;
+        height: 2px;
+        bottom: 8px;
+    }
+    .heading.line-after.line-center:before {
+        margin: 0 auto;
+    }
+    /* ========== End Comman CSS ========== */
+
+    /* ========== Form Realted Comman CSS ========== */
+    .form-control {
+        height: calc(1.5em + .75rem + 2px);
+        color:#000;
+    }
+    /* ========== End Form Realted Comman CSS ========== */
+
+    /* ========== Comman Button CSS ========== */
+     .btn-x-lg {
+        padding: .55rem 1.2rem;
+        font-size: 1.1rem;
+    }
+    /* ========== End Comman Button CSS ========== */
+
+    /* ========== CSS Contact Us Page ========== */
+    .map-container{
+        padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    }
+    /* ========== End CSS Contact Us Page ========== */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* ========== Comman Button CSS ========== */
+    .h-xm-100vh {
+        height: 100vh!important;
+    }
+    /* ========== End Comman Button CSS ========== */
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* ========== Comman CSS ========== */
+    .img-1x,
+    .img-1x > img {
+        height: 40px;
+        width: 40px;
+    }
+    .img-2x,
+    .img-2x > img {
+        height: 80px;
+        width: 80px;
+    }
+    .img-3x,
+    .img-3x > img {
+        height: 200px;
+        width: 200px;
+    }
+    .list-top-space > li:not(:first-child),
+    .list-top-space > div:not(:first-child) {
+        padding-top: 30px;
+    }
+    .list-top-space-md > li:not(:first-child),
+    .list-top-space-md > div:not(:first-child) {
+        padding-top: 20px;
+    }
+    .list-top-space-sm > li:not(:first-child),
+    .list-top-space-sm > div:not(:first-child) {
+        padding-top: 10px;
+    }
+    .h-md-100vh {
+        height: 100vh!important;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 30px;
+    }
+    /* ========== End Comman CSS ========== */
+
+    /* ========== Form Realted Comman CSS ========== */
+    .form-control {
+        height: calc(2em + .75rem + 2px);
+    }
+    /* ========== End Form Realted Comman CSS ========== */
+
+    /* ========== Comman Button CSS ========== */
+    .btn-x-lg {
+        padding: .75rem 2rem;
+        font-size: 1.5rem;
+    }
+    /* ========== End Comman Button CSS ========== */
+
+    /* ========== CSS for Footer Section ========== */
+    .footer-address {
+        max-width: 200px;
+    }
+    /* ========== End CSS for Footer Section ========== */
+
+    /* ========== CSS for About Us Page ========== */
+    .row-reverse-content > .row:nth-child(even) > div:nth-child(1) {
+        order: 1;
+    }
+    /* ========== End CSS for About Us Page ========== */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* ========== End Comman CSS ========== */
+    .h-lg-100vh {
+        height: 100vh!important;
+    }
+    .heading h2 {
+        font-size: 28px;
+    }
+    .heading.lg h2 {
+        font-size: 40px;
+    }
+    .subheading h4 {
+        font-size: 18px;
+    }
+    .subheading h3 {
+        font-size: 24px;
+    }
+    .heading.line-after:before {
+        max-width: 150px;
+        margin-left: 0;
+        height: 4px;
+        bottom: 15px;
+    }
+    .heading.line-after.line-center:before {
+        margin: 0 auto;
+    }
+    /* ========== End Comman CSS ========== */
+
+    /* ========== CSS for Header section  ========== */
+    .site-header {
+        height: 110px;
+        top: -80px;
+        position: static;
+        transition: all .3s ease-in-out;
+        background: transparent;
+        z-index: 99;
+    }
+    nav.navbar {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        transition: all .3s ease-in-out;
+    }
+    .hs-sub-menu-opened > .hs-sub-menu {
+        -webkit-box-shadow: 1px 4px 10px 1px rgba(0,0,0,.15);
+        box-shadow: 1px 4px 10px 1px rgba(0,0,0,.15);
+        /* border-radius: 4px; */
+        padding: 10px;
+        min-width: 230px;
+        border-top: 4px solid #051034;
+    }
+    .site-header.fixed-header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: #fff;
+        height: 80px;
+        -webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+        box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+    }
+    .fixed-header .navbar-brand {
+        max-width: 70px;
+    }
+    .fixed-header nav.navbar {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    /* .fixed-header .logo-name h1 {
+        font-size: 24px;
+    } */
+    .fixed-header .logo-name p {
+        /* font-size: 13px; */
+        padding-top: 0;
+    }
+    .navbar-expand-lg .navbar-nav .hs-sub-menu .nav-link {
+        padding-left: 0;
+    }
+    
+    /* ========== End CSS for Header section  ========== */
+
+    /* ========== CSS Contact Us Page ========== */
+    .map-container{
+        padding-bottom: 60%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    }
+    /* ========== End CSS Contact Us Page ========== */
+}
+
+@media (min-width: 1024px) {
+    /* ==========  Comman CSS ========== */
+    /* ========== End Comman CSS ========== */
+
+    /* ========== CSS Contact Us Page ========== */ 
+    /* ========== End CSS Contact Us Page ========== */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* .container {
+        width: calc(100% - 5%);
+    } */
+    /* ========== End Comman CSS ========== */
+    .h-xl-100vh {
+        height: 100vh!important;
+    }
+    /* ========== End Comman CSS ========== */
+}
+
+@media (max-width: 1280px) {
+    .logo-name h1 {
+        font-size: 22px;
+        color: #051034;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 12px 7px 12px 7px;
+        font-size: 13px;
+    }
+    .logo-name p {
+        padding: 0;
+    }
+    .hs-has-sub-menu:after {
+        right: 6px;
+        top:18px
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1024px) {
+    /* ========== CSS for Header ========== */
+    .logo-name h1 {
+        font-size: 20px;
+    }
+    .logo-name p {
+        font-size: 13px;
+    }
+    /* ========== End CSS for Header ========== */
+    /* ========== CSS for Banner Slider ========== */
+    .banner-content h2 {
+        font-size: 32px;
+        line-height: 36px;
+    } 
+    .banner-content p {
+        font-size: 16px;
+    }
+    /* ========== End CSS for Banner Slider ========== */
+
+    /* ========== CSS For Header Section ========== */
+    .u-header__sub-menu-title {
+        font-size: 14px;
+    }
+    .u-header__sub-menu-nav-link {
+        font-size: 12px;
+    }
+    .menu-icon {
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+        background-size: 20px;
+    }
+    .menu-icon.sm {
+        height: 32px;
+        width: 32px;
+        min-width: auto;
+        background-size: 14px;
+    }
+    /* ========== End CSS For Header Section ========== */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    body {
+        font-size: 14px;
+    }
+    .main-wrapper {
+        padding-top: 0!important;
+    }
+
+    /* ========== CSS for Header section  ========== */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 7px
+    }
+    .navbar-nav .active > .nav-link, .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .navbar-nav .nav-link:after {
+        background-image: -webkit-linear-gradient(to right, #fff, #fff);
+        background-image: linear-gradient(to right, #fff, #fff);
+    }
+    .site-header {
+        -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,.15);
+        box-shadow: 0px 0px 13px 0px rgba(0,0,0,.15);
+    }
+    .navbar-collapse { 
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 100%;
+        right: -15px;
+        left: -15px;
+        padding: 10px 5px 20px;
+        z-index: 99;
+    }
+    .navbar-nav .nav-item {
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-link {
+        background-color: #fff;
+        padding: 0 0 8px 0;
+    } 
+    .navbar-brand {
+        max-width: 80px;
+    }
+    .hs-mobile-state .hs-sub-menu {
+        background-color: transparent;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .hs-has-sub-menu:after {
+        border: 2px solid white;
+        border-top: 0;
+        border-left: 0;
+        top: 6px;
+        right: 9px;
+    }
+    .hs-has-sub-menu.hs-sub-menu-opened:after {
+        top: 10px;
+    }
+    .hs-sub-menu, .hs-mega-menu {
+        background-color: transparent;
+    }
+    .hs-menu-initialized.hs-menu-horizontal .hs-mega-menu.hs-position-left {
+        border-top:0;
+    }
+    .navbar-nav .nav-link {
+        display: block;
+    }
+    nav .fa-angle-down {
+        color: #fff;
+        float: right;
+        padding-top: 4px;
+    }
+    /* ========== End CSS for Header section  ========== */
+
+    /* ========== CSS for Index Banner ========== */
+    /* ========== End CSS for Index Banner ========== */
+
+    /* ========== CSS for Footer Section ========== */
+    .social-links>li:not(:first-child) {
+        padding-left: 15px;
+    }
+    .footer-links-list a {
+        margin: 2px 0;
+    }
+    /* ========== End CSS for Footer Section ========== */
+
+    /* ========== CSS for About Us Page ========== */
+    /* ========== End CSS for About Us Page ========== */
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+}
+
+@media (max-width: 575.8px) and (orientation: portrait) {
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    /* ========== CSS for Banner Slider ========== */
+    /* .index-banner .tumbnails-img {
+        max-width: 360px;
+    } */
+    .inner-banner-block {
+        height: 300px;
+    }
+    /* ========== End CSS for Banner Slider ========== */
+
+    .inner-page-banner {
+        height: 80vh;
+    }  
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    /* ========== CSS for Banner Slider ========== */
+    /* ========== End CSS for Banner Slider ========== */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ========== Comman Button CSS ========== */
+    .btn-group-lg>.btn, 
+    .btn-lg {
+        padding: .3rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .btn {
+        font-size: .9rem;
+    }
+    .owl-nav-style .owl-nav button {
+        height: 28px;
+        width: 28px;
+    }
+    .owl-nav-style .owl-nav button span:before {
+        left: 11px;
+        top: 10px;
+        height: 9px;
+        width: 9px;
+    }
+    .owl-nav-style .owl-nav button.owl-next span:before {
+        left: 8px;
+    }
+    /* ========== End Comman Button CSS ========== */
+
+    /* ========== CSS for Header section  ========== */
+    .navbar-brand {
+        max-width: 60px;
+        margin-right: 5px;
+    }
+    /* ========== End CSS for Header section  ========== */
+
+    /* ========== Form Realted Comman CSS ========== */
+    .form-control {
+        font-size: 14px;
+    }
+    /* ========== End Form Realted Comman CSS ========== */
+
+    /* ========== CSS for Footer Section ========== */
+    /* ========== End CSS for Footer Section ========== */
+
+    /* ========== CSS for Index Banner Slider ========== */
+    /* ========== End CSS for Index Banner Slider ========== */
+
+    /* ========== CSS for FAQ's Page ========== */
+    .accordion-button {
+        font-size: 14px;
+    }
+    .accordion-button i {
+        top: 19px;
+        font-size: 15px;
+    }
+    .checkmark > span {
+        font-size: 13px;
+    }
+    /* ========== End CSS for FAQ's Page ========== */
+
+    /* ========== CSS for inner banner Section ========== */
+    /* ========== End CSS for inner banner Section ========== */
+
+    /* ========== CSS for principal Speaks Section ========== */
+    .principal-speaks .row-reverse-content > .row + .row {
+        padding-top: 30px;
+    }
+    .principal-speaks .row-reverse-content .yellow-gradient-border:before {
+        top: 15px;
+    }
+    .principal-image {
+        max-width: 160px;
+    }  
+    .principal-comment p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .shape-top {
+        top: -6px;
+    }
+    /* ========== End CSS for principal Speaks Section ========== */
+    
+    .about-descripton p {
+        font-size: 15px;
+        line-height: 22px;
+    }    
+    
+    .office-msg marquee {
+        font-size: 15px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* ========== CSS for Banner Slider ========== */
+    .banner-content h2 {
+        font-size: 24px;
+        line-height: 28px;
+    } 
+    .banner-content p {
+        font-size: 14px;
+    }
+    /* ========== End CSS for Banner Slider ========== */
+
+    /* ========== CSS for Footer Section ========== */
+    .logo-name h1 {
+        font-size: 15px;
+    }
+    .logo-name p {
+        font-size: 11px;
+    }
+    .footer-logo {
+        max-width: 60px;
+        padding: 1px 0px 0px 1px;
+    }
+    .footer-logo-name h6 {
+        font-size: 15px;
+    }
+    /* ========== End CSS for Footer Section ========== */
+
+    /* ========== CSS for About Us Page ========== */
+    /* ========== End CSS for About Us Page ========== */
+    
+    
+}
