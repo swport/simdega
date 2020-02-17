@@ -343,7 +343,7 @@ button,
     height: 8px;
     width: 15px;
     display: inline-block;
-    border: 2px solid #000000;
+    border: 2px solid #fff;
     transform: rotate(-45deg);
     position: absolute;
     left: 4px;
@@ -355,8 +355,8 @@ button,
     height: 22px;
 }
 .custom-checkbox input:checked ~ .checkmark .check:before {
-    background: #fcd048;
-    border-color: #fcd048;
+    background: #051034;
+    border-color: #051034;
 }
 /* End Custom Checkbox */
 
@@ -552,6 +552,81 @@ nav .fa-angle-down {
 
 /* ========== End CSS for Index Banner Slider ========== */
 
+
+/* ========== Index Page CSS ========== */
+.word-break {
+    word-break: break-word;
+}
+.office-msg marquee {
+    font-size: 20px;
+    color: white;
+    background: #051034;
+}
+.map-container{
+    position: relative;
+    width: 100%;
+}
+.map-container > * {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.get-in-touch .fas {
+    min-width: 20px;
+}
+/* ========== End Index Page CSS ========== */
+
+/* ========== CSS for principal Speaks Section ========== */
+.principal-image span {
+    -webkit-box-shadow: 6px 8px 20px 6px rgba(0,0,0,.25);
+    box-shadow: 6px 8px 20px 6px rgba(0,0,0,.25);
+}
+.principal-image img {
+    height: 100%;
+    width: 100%;
+}
+.principal-comment p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.principal-image:before {
+    content: '';
+    background: rgb(5, 16, 52);
+    position: absolute;
+    z-index: 0;
+    left: 8%;
+    right: -8%;
+    bottom: -8%;
+    top: 7%;
+}
+.principal-comment .fa-quote-left {
+    font-size: 36px;
+    color: #050f30;
+}
+.section-shape svg {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2);
+}
+.shape-top {
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+/* ========== End CSS for principal Speaks Section ========== */
+
 /* ========== CSS for Footer Section ========== */
 footer .container {
     z-index: 2;
@@ -632,9 +707,6 @@ footer .line-after:before {
     margin: 5px 0;
     display: inline-block;
 }
-/* .footer-links-list a:hover {
-    letter-spacing: 1.5px;
-} */
 .footer-links-list a:hover,
 .social-links>li> a:hover i  {
     color: #fff;
@@ -657,90 +729,6 @@ footer .line-after:before {
 }
 /* ========== CSS for Footer Section ========== */
 
-/* ========== CSS Inner page Banner ========== */
-.heading,
-.hover-link,
-.about-us-wrapper .testimonial-section {
-    position: relative;
-}
-.inner-page-banner {
-    height: 50vh;
-    background-color: #ffdc6f;
-    overflow: hidden;
-}
-.inner-banner-block {
-    margin-top: -45px;
-}
-.border-effect:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    background: rgb(95, 95, 95);
-    height: 3px;
-    width: 0;
-    margin: auto;
-}
-.wavesshape {
-    bottom: -2px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: auto;
-    width: 100%;
-}
-.wavesshape.shape {
-    bottom: -80px;
-    height: auto;
-}
-/* ========== End CSS Inner page Banner ========== */
-
-/* ========== CSS Contact Us Page ========== */
-.map-container{
-    position: relative;
-    width: 100%;
-}
-.map-container > * {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-/* ========== End CSS Contact Us Page ========== */
-  
-/* ========== CSS for FAQ's Page ========== */
-.question-list .card-body p {
-    line-height: 25px;
-    color: #727272;
-}
-.accordion-button {
-    text-decoration: none!important;
-    font-weight: 500;
-    color: #4c4981;
-}
-.accordion-button:hover,
-.accordion-button[aria-expanded="true"] {
-    color: #f3b835;
-}
-.accordion-button i {
-    position: absolute;
-    right: 0;
-    top: 17px;
-    font-size: 22px;
-}
-.accordion-button[aria-expanded="true"] i {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-/* ========== End CSS for FAQ's Page ========== */
-
 /* ========== CSS for Back To Top Button ========== */
 .back-to-top {
     position: fixed;
@@ -762,93 +750,6 @@ footer .line-after:before {
     pointer-events: all;
 }
 /* ========== End CSS for Back To Top Button ========== */
-
-/* ========== CSS for About Us Page ========== */
-.about-descripton p {
-    font-size: 18px;
-    line-height: 30px;
-}
-.client-list {
-    max-width: 1100px;
-}
-.client-logo {
-    border: 1px solid #e4e4e4;
-    width: 100%;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.05);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,.05);
-}
-.client-logo:after {
-    content: '';
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    top: 8px;
-    border: 1px solid #000;
-    position: absolute;
-    transform: scale(.9);
-    opacity: 0;
-}
-.client-logo:hover {
-    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,.05);
-    box-shadow: 0px 0px 7px 1px rgba(0,0,0,.05);
-    transform: translateY(-2px);
-}
-.client-logo:hover:after {
-    transform: scale(1);
-    opacity: 1;
-}
-.client-logo:hover,
-.client-logo:hover:after {
-    border: 1px solid #cc9a04;
-}
-.row-reverse-content > .row + .row {
-    padding-top: 50px;
-}
-.principal-speaks .row-reverse-content > .row + .row {
-    padding-top: 100px;
-}
-#how-it-work .card,
-.blog-list .card {
-    -webkit-box-shadow: 1px 9px 15px 2px rgba(0,0,0, .25);
-    box-shadow: 1px 9px 15px 2px rgba(0,0,0, .25);
-}
-#how-it-work .card:hover,
-.blog-list .card:hover {
-    -webkit-box-shadow: 1px 9px 20px 4px rgba(0,0,0, .25);
-    box-shadow: 1px 9px 20px 4px rgba(0,0,0, .25);
-}
-#how-it-work .card .thumbnail,
-#how-it-work .card .thumbnail img,
-.blog-list .card .thumbnail,
-.blog-list .card .thumbnail img {
-    border-radius: 12px 12px 0 0;
-}
-#how-it-work .card-text {
-    min-height: 145px;
-}
-#how-it-work .card:hover img,
-.blog-list .card:hover img {
-    -webkit-transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    transform: scale(1.25);
-}
-#how-it-work .overlay-black:before,
-.blog-list .overlay-black:before {
-    background-color: rgba(0,0,0,.35);
-}
-#client-list-slider .owl-item img {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-.client-logo:hover img {
-    -webkit-transform: scale(.95);
-    -ms-transform: scale(.95);
-    -moz-transform: scale(.95);
-    transform: scale(.95);
-}
-/* ========== End CSS for About Us Page ========== */
 
 /* ========== CSS for Owl Nav ========== */
 .owl-nav-style .owl-nav button {
@@ -927,57 +828,27 @@ footer .line-after:before {
 }
 /* ========== End CSS for Owl Nav ========== */
 
-/* ========== CSS for principal Speaks Section ========== */
-.principal-image span {
-    -webkit-box-shadow: 6px 8px 20px 6px rgba(0,0,0,.25);
-    box-shadow: 6px 8px 20px 6px rgba(0,0,0,.25);
+/* ========== CSS Inner page Banner ========== */
+.heading, .hover-link {
+    position: relative;
 }
-.principal-image img {
-    height: 100%;
-    width: 100%;
+.inner-banner {
+    -webkit-background: linear-gradient(to bottom, rgba(5, 16, 52,.9), rgba(5, 16, 52,.8), rgba(5, 16, 52,0.6));
+    background: linear-gradient(to bottom, rgba(5, 16, 52,.9), rgba(5, 16, 52,.8), rgba(5, 16, 52,0.6));
+    height: 24vh;
+    color: #fff;
 }
-.principal-comment p {
-    font-size: 16px;
-    line-height: 26px;
+/* ========== End CSS Inner page Banner ========== */
+
+
+/* ========== CSS for About Us Page ========== */
+.about-us-content  > div {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.principal-image:before {
-    content: '';
-    background: rgb(5, 16, 52);
-    position: absolute;
-    z-index: 0;
-    left: 8%;
-    right: -8%;
-    bottom: -8%;
-    top: 7%;
-}
-.principal-comment .fa-quote-left {
-    font-size: 36px;
-    color: #050f30;
-}
-.section-shape svg {
-    -webkit-transform: scale(2);
-    -ms-transform: scale(2);
-    -moz-transform: scale(2);
-    transform: scale(2);
-}
-.shape-top {
-    top: 0;
-    left: 0;
-    right: 0;
-    -webkit-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-}
-/* ========== End CSS for principal Speaks Section ========== */
-.word-break {
-    word-break: break-word;
-}
-.office-msg marquee {
-    font-size: 20px;
-    color: white;
-    background: #051034;
-}
+/* ========== End CSS for About Us Page ========== */
+
+/* ========== CSS Contact Us Page ========== */
 .map-container{
     position: relative;
     width: 100%;
@@ -994,6 +865,4 @@ footer .line-after:before {
     height: 100%;
     width: 100%;
 }
-.get-in-touch .fas {
-    min-width: 20px;
-}
+/* ========== End CSS Contact Us Page ========== */

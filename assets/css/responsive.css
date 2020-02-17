@@ -196,12 +196,12 @@
         transition: all .3s ease-in-out;
     }
     .hs-sub-menu-opened > .hs-sub-menu {
-        -webkit-box-shadow: 1px 4px 10px 1px rgba(0,0,0,.15);
-        box-shadow: 1px 4px 10px 1px rgba(0,0,0,.15);
+        -webkit-box-shadow: 1px 2px 15px 1px rgba(0,0,0,.15);
+        box-shadow: 1px 2px 15px 1px rgba(0,0,0,.15);
         /* border-radius: 4px; */
         padding: 10px;
         min-width: 230px;
-        border-top: 4px solid #051034;
+        /* border-top: 4px solid #051034; */
     }
     .site-header.fixed-header {
         position: fixed;
@@ -320,6 +320,13 @@
         background-size: 14px;
     }
     /* ========== End CSS For Header Section ========== */
+
+    /* ========== CSS for About Us Page ========== */
+    .about-us-content  > div {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* ========== End CSS for About Us Page ========== */
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -558,6 +565,10 @@
     /* ========== End CSS for Footer Section ========== */
 
     /* ========== CSS for About Us Page ========== */
+    .about-us-content  > div {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
     /* ========== End CSS for About Us Page ========== */
     
     

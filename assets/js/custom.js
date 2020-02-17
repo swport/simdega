@@ -81,5 +81,25 @@ $(document).ready(function(){
         }
     })
 
+    $(document).ready(function(){
+        if ((window.location.hash == "#history") && (window.location.hash == "#objective") && (window.location.hash == "#vision")){
+            $('html, body').animate({
+                scrollTop: $("#moreInfo").offset().top + 120
+            }, 1000);
+        }
+    });
+
+
+    // Visitor Count
+    var n = localStorage.getItem('on_load_counter');
+
+    if (n === null) {
+        n = 1000;
+    }
+    n++;
+
+    localStorage.setItem("on_load_counter", n);
+
+    document.getElementById('CounterVisitor').innerHTML = n;
 
 });
