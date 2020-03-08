@@ -73,6 +73,9 @@ a:focus {
 .mx-220 {
     max-width: 220px;
 }
+.mx-250 {
+    max-width: 250px;
+}
 .mx-300 {
     max-width: 300px;
 }
@@ -155,6 +158,13 @@ label {
     position: absolute;
     background: linear-gradient(to right, #ffffff, #051034, #ffffff);
 }
+/* .radius-12,
+.bottom-border-up:after {
+    -webkit-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+} */
 /* ========== End Comman CSS ========== */
 
 /* ========== Background Color CSS ========== */
@@ -309,6 +319,10 @@ button,
 }
 
 /* Custom Checkbox */
+.form-control {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
 .custom-checkbox input[type="checkbox"] {
     opacity: 0;
     visibility: hidden;
@@ -849,7 +863,7 @@ footer .line-after:before {
 /* ========== End CSS for About Us Page ========== */
 
 /* ========== CSS Contact Us Page ========== */
-.map-container{
+.map-container {
     position: relative;
     width: 100%;
 }
@@ -866,3 +880,59 @@ footer .line-after:before {
     width: 100%;
 }
 /* ========== End CSS Contact Us Page ========== */
+
+/* ========== Teaching section CSS ========== */
+.info-box {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0 .3rem 1rem rgba(0,0,0,.25);
+    box-shadow: 0 .3rem 1rem rgba(0,0,0,.25);
+}
+.info-box:hover {
+    -webkit-box-shadow: 0 .6rem 1rem rgba(0,0,0,.35);
+    box-shadow: 0 .6rem 1rem rgba(0,0,0,.35);
+}
+.info-box:hover {
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.bottom-border-up:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border: 4px solid #24244a;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    z-index: -1;
+}
+/* ========== End Teaching section CSS ========== */
+
+.doc-view,
+.image-view {
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(13, 13, 68, 0.2);
+    border: 1px solid #24244a;
+}
+.doc-view {
+    height: 200px;
+    max-width: 500px;
+    background-size: 100px;
+    background-image: url(../images/docs.png);
+}
+
+.image-view {
+    height: 120px;
+    max-width: 250px;
+    background-size: 75px;
+    background-image: url(../images/thumbnail.png);
+}

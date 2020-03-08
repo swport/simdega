@@ -16,8 +16,8 @@
     }
     .img-3x,
     .img-3x > img {
-        height: 120px;
-        width: 120px;
+        height: 80px;
+        width: 80px;
     }
     .list-top-space > li:not(:first-child),
     .list-top-space > div:not(:first-child) {
@@ -72,9 +72,11 @@
     /* ========== End Comman Button CSS ========== */
 
     /* ========== CSS Contact Us Page ========== */
+    .contact-us-wrapper .map-container,
     .map-container{
         padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
     }
+
     /* ========== End CSS Contact Us Page ========== */
 }
 
@@ -103,8 +105,8 @@
     }
     .img-3x,
     .img-3x > img {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
     }
     .list-top-space > li:not(:first-child),
     .list-top-space > div:not(:first-child) {
@@ -234,8 +236,11 @@
     /* ========== End CSS for Header section  ========== */
 
     /* ========== CSS Contact Us Page ========== */
-    .map-container{
+    .map-container {
         padding-bottom: 60%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    }
+    .contact-us-wrapper .map-container {
+        padding-bottom: 100%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
     }
     /* ========== End CSS Contact Us Page ========== */
 }

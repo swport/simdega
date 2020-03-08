@@ -89,7 +89,7 @@
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html#history">History</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html#objective">Objective</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html#vision">Vision &amp; Mission</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html">Contact Us</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="contact-us.html">Contact Us</a></li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
@@ -127,17 +127,17 @@
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="staffSubMenu"></span>
                                     <!-- College Staff  - Submenu -->
                                     <ul id="staffSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Teaching</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Non Teaching</a> </li>
+                                        <li><a href="teaching.html" class="nav-link u-header__sub-menu-nav-link">Teaching</a> </li>
+                                        <li><a href="non-teaching.html" class="nav-link u-header__sub-menu-nav-link">Non Teaching</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
                                 <!-- End College Staff  -->
     
                                 <!-- Link -->
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="javascript:void(0)" class="nav-link u-header__nav-link">NAAC</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="naac.html" class="nav-link u-header__nav-link">NAAC</a></li>
 
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="javascript:void(0)" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
 
                                 <!-- End link -->
                             </ul>
@@ -262,6 +262,9 @@
                                     </li>
                                     <li> 
                                         <a href="javascript:void(0)">Holiday List</a> 
+                                    </li>
+                                    <li> 
+                                        <a href="contact-us.html">Contact Us</a> 
                                     </li>
                                 </ul>
                             </div>

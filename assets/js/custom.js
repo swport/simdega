@@ -81,6 +81,8 @@ $(document).ready(function(){
         }
     })
 
+
+    // About us Inner section
     $(document).ready(function(){
         if ((window.location.hash == "#history") && (window.location.hash == "#objective") && (window.location.hash == "#vision")){
             $('html, body').animate({
@@ -102,4 +104,8 @@ $(document).ready(function(){
 
     document.getElementById('CounterVisitor').innerHTML = n;
 
+
+    $('#send').on('click', function(){
+        $('.success-msg').show();
+    })
 });
