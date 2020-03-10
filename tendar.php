@@ -24,9 +24,9 @@
         <div class="pt-5 text-center">
             <h5>Click here for view Tender:</h5>
         </div>
-        <!-- <a class="doc-view mx-auto my-4" data-fancybox data-type="iframe" data-src="/assets/pdf/ssr.pdf" href="javascript:;">
+        <!-- <a class="doc-view mx-auto my-4" data-fancybox data-type="iframe" data-src="assets/pdf/ssr.pdf" href="javascript:;">
                 </a> -->
-        <a class="image-view my-5 mx-auto" data-fancybox="images" href="/assets/images/tender.jpeg">
+        <a class="image-view my-5 mx-auto" data-fancybox="images" href="<?=$base_url?>assets/images/tender.jpeg">
         </a>
     </div>
 </section>

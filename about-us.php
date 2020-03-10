@@ -26,7 +26,7 @@ include(__DIR__ . '/partials/header.php');
                 <h2 class="font-weight-semibold">History</h2>
             </div>
             <div class="tumbnails-img-sm mx-220 mx-auto text-center py-4">
-                <img src="/assets/images/history.png" alt="History" class="img-fluid">
+                <img src="<?=$base_url?>assets/images/history.png" alt="History" class="img-fluid">
             </div>
             <div class="mx-1000 mx-auto pt-3">
                 <div class="description">
@@ -48,7 +48,7 @@ include(__DIR__ . '/partials/header.php');
                 <h2 class="font-weight-semibold">Objective</span></h2>
             </div>
             <div class="tumbnails-img-sm mx-220 mx-auto text-center py-4 ">
-                <img src="/assets/images/goal.png" alt="Objective" class="img-fluid">
+                <img src="<?=$base_url?>assets/images/goal.png" alt="Objective" class="img-fluid">
             </div>
             <div class="mx-1000 mx-auto pt-3">
                 <div class="description">
@@ -65,7 +65,7 @@ include(__DIR__ . '/partials/header.php');
                 <h2 class="font-weight-semibold">Vision & Mission</h2>
             </div>
             <div class="tumbnails-img-sm mx-220 mx-auto text-center py-4">
-                <img src="assets/images/mission.png" alt="Vision & Mission" class="img-fluid">
+                <img src="<?=$base_url?>assets/images/mission.png" alt="Vision & Mission" class="img-fluid">
             </div>
             <div class="mx-1000 mx-auto pt-3">
                 <div class="description">

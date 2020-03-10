@@ -22,7 +22,7 @@
         <div class="pt-5 text-center">
             <h5>Click here for view Self Study Report:</h5>
         </div>
-        <a class="doc-view mx-auto my-sm-5 my-4" data-fancybox data-type="iframe" data-src="/assets/pdf/ssr.pdf" href="javascript:;">
+        <a class="doc-view mx-auto my-sm-5 my-4" data-fancybox data-type="iframe" data-src="<?=$base_url?>assets/pdf/ssr.pdf" href="javascript:;">
         </a>
 
         <div class="pt-sm-5 pt-4 blue-gradient-border position-relative text-center">
@@ -30,11 +30,11 @@
         </div>
         <div class="row  mx-500 mx-auto">
             <div class="col-sm-6 col-12">
-                <a class="image-view my-4" data-fancybox="images" href="/assets/images/naac-doc-1.jpg">
+                <a class="image-view my-4" data-fancybox="images" href="<?=$base_url?>assets/images/naac-doc-1.jpg">
                 </a>
             </div>
             <div class="col-sm-6 col-12">
-                <a class="image-view my-4" data-fancybox="images" href="/assets/images/naac-doc-2.jpg">
+                <a class="image-view my-4" data-fancybox="images" href="<?=$base_url?>assets/images/naac-doc-2.jpg">
                 </a>
             </div>
         </div>

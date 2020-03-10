@@ -27,7 +27,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Raj Kumar Sharma</h4>
@@ -45,7 +45,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Ranjit Kumar Choudhary</h4>
@@ -63,7 +63,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Rajesh Kumar</h4>
@@ -81,7 +81,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Mr R S Tete</h4>
@@ -99,7 +99,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Mr Rajender Kumar Baraik</h4>
@@ -117,7 +117,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Mrs Triyo Ekka</h4>
@@ -135,7 +135,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Mrs A P Baa</h4>
@@ -153,7 +153,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Mr Vidya Sankar Kumar</h4>
@@ -171,7 +171,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Devi Lal Prasad</h4>
@@ -189,7 +189,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Ashok Kumar Singh</h4>
@@ -207,7 +207,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr A H Ansari</h4>
@@ -225,7 +225,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Loreng Tete</h4>
@@ -243,7 +243,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Mr Sukhdev Oraon</h4>
@@ -261,7 +261,7 @@
                 <div class="h-100">
                     <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
                         <div class="profile-info img-3x mx-auto rounded-circle">
-                            <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                            <img src="<?=$base_url?>assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                         </div>
                         <div class="subheading text-capitalize text-center py-3">
                             <h4 class="py-2">Dr Ram Kumar Prasad</h4>
