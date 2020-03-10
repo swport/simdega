@@ -2,15 +2,8 @@
         exit;
     }
 
-// helpers vars
-$base_url = 'http://localhost/simdega/';
+require_once __DIR__ . '/config.php';
 
-$current_url = sprintf(
-    "%s://%s%s",
-    isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
-    $_SERVER['SERVER_NAME'],
-    $_SERVER['REQUEST_URI']
-  );
 ?>
 
 <!DOCTYPE html>
@@ -22,38 +15,38 @@ $current_url = sprintf(
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simdega College</title>
-    <link rel="icon" href="<?=$base_url?>assets/images/favicon.ico">
+    <link rel="icon" href="<?=BASE_URL?>assets/images/favicon.ico">
 
     <!-- Include Google Roboto Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Inlucde Boostrap CSS Library -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/bootstrap.min.css">
 
     <!-- Inlucde Mega Menus CSS Library -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/hs.megamenu.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/hs.megamenu.css">
 
     <!-- Inlucde Owl Carousel CSS Library -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/owl.theme.default.min.css">
 
     <!-- Include Font Awesome CSS Library -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/all.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/all.css">
 
     <!-- Inlucde FancyBox CSS File -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/jquery.fancybox.min.css">
 
     <!-- Include Animate CSS Library -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/animate.min.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/animate.min.css">
 
     <!-- Inlucde Custom Animation CSS File -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/animation.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/animation.css">
 
     <!-- Inlucde Custom CSS File -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/style.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/style.css">
 
     <!-- Inlucde Custom Responsive CSS File -->
-    <link rel="stylesheet" href="<?=$base_url?>assets/css/responsive.css">
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/css/responsive.css">
 
 </head>
 
@@ -72,7 +65,7 @@ $current_url = sprintf(
                         <!-- Logo -->
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center p-0" href="index.html" aria-label="Front">
-                                <img src="<?=$base_url?>assets/images/logo.png" alt="Simdega College Simdega">
+                                <img src="<?=BASE_URL?>assets/images/logo.png" alt="Simdega College Simdega">
                             </a>
                             <div class="logo-name">
                                 <h1 class="text-uppercase">Simdega College Simdega</h1>

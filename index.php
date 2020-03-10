@@ -12,17 +12,17 @@
         <div class="owl-carousel owl-theme owl-nav-style owl-side-nav" id="banner-slider">
             <div class="item position-relative d-flex align-items-center justify-content-center">
                 <div class="tumbnails-img mx-auto position-relative overlay-black">
-                    <img src="<?=$base_url?>assets/images/banner-1.jpg" alt="Banner-image" class="img-fluid">
+                    <img src="<?=BASE_URL?>assets/images/banner-1.jpg" alt="Banner-image" class="img-fluid">
                 </div>
             </div>
             <div class="item position-relative d-flex align-items-center justify-content-center">
                 <div class="tumbnails-img mx-auto position-relative overlay-black">
-                    <img src="<?=$base_url?>assets/images/banner-2.jpg" alt="Banner-image" class="img-fluid">
+                    <img src="<?=BASE_URL?>assets/images/banner-2.jpg" alt="Banner-image" class="img-fluid">
                 </div>
             </div>
             <div class="item position-relative d-flex align-items-center justify-content-center">
                 <div class="tumbnails-img mx-auto position-relative overlay-black">
-                    <img src="<?=$base_url?>assets/images/banner-3.jpg" alt="Banner-image" class="img-fluid">
+                    <img src="<?=BASE_URL?>assets/images/banner-3.jpg" alt="Banner-image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 <div class="col-12 col-lg-4 py-3">
                     <div class="principal-image position-relative mx-220 mx-auto">
                         <span class="d-inline-block position-relative radius-12">
-                            <img src="<?=$base_url?>assets/images/principal.jpg" alt="" class="img-fluid radius-12">
+                            <img src="<?=BASE_URL?>assets/images/principal.jpg" alt="" class="img-fluid radius-12">
                         </span>
                     </div>
                 </div>

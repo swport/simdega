@@ -15,7 +15,7 @@ if(! defined('PAGE_DAN') ) {
                 <div class="col-lg-4 col-12 pb-lg-0 pb-3">
                     <div class="d-flex align-items-center mb-3">
                         <div class="footer-logo rounded-circle">
-                            <img src="<?=$base_url?>assets/images/logo.png" alt="Simdega College Simdega" class="img-fluid">
+                            <img src="<?=BASE_URL?>assets/images/logo.png" alt="Simdega College Simdega" class="img-fluid">
                         </div>
                         <div class="footer-logo-name pl-3">
                             <h6 class="text-uppercase">Simdega College Simdega</h6>
@@ -154,25 +154,25 @@ if(! defined('PAGE_DAN') ) {
 
 
 <!-- Include Jquery Library -->
-<script src="<?=$base_url?>assets/js/jquery-3.4.1.min.js"></script>
+<script src="<?=BASE_URL?>assets/js/jquery-3.4.1.min.js"></script>
 
 <!-- Include Popper JS Library -->
-<script src="<?=$base_url?>assets/js/popper.min.js"></script>
+<script src="<?=BASE_URL?>assets/js/popper.min.js"></script>
 
 <!-- Include Bootstrap JS Library -->
-<script src="<?=$base_url?>assets/js/bootstrap.min.js"></script>
+<script src="<?=BASE_URL?>assets/js/bootstrap.min.js"></script>
 
 <!-- Include Mega Menu JS Library -->
-<script src="<?=$base_url?>assets/js/hs.megamenu.js"></script>
+<script src="<?=BASE_URL?>assets/js/hs.megamenu.js"></script>
 
 <!-- Include Owl Carousel JS Library -->
-<script src="<?=$base_url?>assets/js/owl.carousel.js"></script>
+<script src="<?=BASE_URL?>assets/js/owl.carousel.js"></script>
 
 <!-- Include FancyBox JS Library -->
-<script src="<?=$base_url?>assets/js/jquery.fancybox.min.js"></script>
+<script src="<?=BASE_URL?>assets/js/jquery.fancybox.min.js"></script>
 
 <!-- Include Custom JS file -->
-<script src="<?=$base_url?>assets/js/custom.js"></script>
+<script src="<?=BASE_URL?>assets/js/custom.js"></script>
 </body>
 
 </html>
