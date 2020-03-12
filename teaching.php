@@ -2,7 +2,9 @@
 
     define('PAGE_DAN', 1);
 
-    include(__DIR__ . '/partials/header.php');
+    require_once __DIR__ . '/_includes/site.php';
+
+    require_once __DIR__ . '/partials/header.php';
 
 ?>
 

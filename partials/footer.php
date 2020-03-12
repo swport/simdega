@@ -46,7 +46,7 @@ if(! defined('PAGE_DAN') ) {
                                     <a href="javascript:void(0)">Holiday List</a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="<?=BASE_URL?>contact-us.php">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -108,7 +108,12 @@ if(! defined('PAGE_DAN') ) {
             <div class="copyright-content-block position-relative py-lg-4 py-3">
                 <div class="row py-lg-2">
                     <div class="col-md-4 col-12 text-md-left text-center">
-                        <p>Visitor Count: <span id="CounterVisitor"></span></p>
+                        <p>Visitor Count: <span id="CounterVisitord">
+                            <?php
+                                $file_path = BASE_PATH . '/_includes/site.ini';
+                                echo ini_get_site_count($file_path)
+                            ?>
+                        </span></p>
                     </div>
                     <div class="col-md-4 col-12 px-md-0 py-md-0 py-2">
                         <div class="text-center">

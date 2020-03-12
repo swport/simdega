@@ -2,8 +2,6 @@
         exit;
     }
 
-require_once __DIR__ . '/config.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -64,7 +62,7 @@ require_once __DIR__ . '/config.php';
                         <!-- Navigation -->
                         <!-- Logo -->
                         <div class="d-flex align-items-center">
-                            <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center p-0" href="index.html" aria-label="Front">
+                            <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center p-0" href="<?=BASE_URL?>" aria-label="Front">
                                 <img src="<?=BASE_URL?>assets/images/logo.png" alt="Simdega College Simdega">
                             </a>
                             <div class="logo-name">
@@ -87,18 +85,18 @@ require_once __DIR__ . '/config.php';
                         <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse justify-content-end">
                             <ul class="navbar-nav u-header__navbar-nav">
 
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="index.html" class="nav-link u-header__nav-link">Home</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="<?=BASE_URL?>" class="nav-link u-header__nav-link">Home</a></li>
 
                                 <!-- About -->
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
-                                    <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="#javascript:void(0)">About</a>
+                                    <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="<?=BASE_URL?>about-us.php">About</a>
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="aboutSubMenu"></span>
                                     <!-- About - Submenu -->
                                     <ul id="aboutSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html#history">History</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html#objective">Objective</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="about-us.html#vision">Vision &amp; Mission</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="contact-us.html">Contact Us</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="<?=BASE_URL?>about-us.php#history">History</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="<?=BASE_URL?>about-us.php#objective">Objective</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="<?=BASE_URL?>about-us.php#vision">Vision &amp; Mission</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="<?=BASE_URL?>contact-us.php">Contact Us</a></li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
@@ -136,17 +134,17 @@ require_once __DIR__ . '/config.php';
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="staffSubMenu"></span>
                                     <!-- College Staff  - Submenu -->
                                     <ul id="staffSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="teaching.html" class="nav-link u-header__sub-menu-nav-link">Teaching</a> </li>
-                                        <li><a href="non-teaching.html" class="nav-link u-header__sub-menu-nav-link">Non Teaching</a> </li>
+                                        <li><a href="<?=BASE_URL?>teaching.php" class="nav-link u-header__sub-menu-nav-link">Teaching</a> </li>
+                                        <li><a href="<?=BASE_URL?>non-teaching.php" class="nav-link u-header__sub-menu-nav-link">Non Teaching</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
                                 <!-- End College Staff  -->
 
                                 <!-- Link -->
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="naac.html" class="nav-link u-header__nav-link">NAAC</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="<?=BASE_URL?>naac.php" class="nav-link u-header__nav-link">NAAC</a></li>
 
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="<?=BASE_URL?>tendar.php" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
 
                                 <!-- End link -->
                             </ul>
