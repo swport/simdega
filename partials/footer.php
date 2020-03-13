@@ -4,6 +4,11 @@ if(! defined('PAGE_DAN') ) {
     exit;
 }
 
+// get viewership count
+$viewership_count = PDO_ABS::getInstance()
+    ->query("SELECT meta_value AS views FROM `options` WHERE meta_key = 'site_count' limit 1;")
+    ->fetchObject();
+
 ?>
 
 </div>
@@ -108,12 +113,13 @@ if(! defined('PAGE_DAN') ) {
             <div class="copyright-content-block position-relative py-lg-4 py-3">
                 <div class="row py-lg-2">
                     <div class="col-md-4 col-12 text-md-left text-center">
-                        <p>Visitor Count: <span id="CounterVisitord">
-                            <?php
-                                $file_path = BASE_PATH . '/_includes/site.ini';
-                                echo ini_get_site_count($file_path)
-                            ?>
-                        </span></p>
+                        <?php
+
+                            if(! empty($viewership_count) && null!==$viewership_count->views ) {
+                                echo "<p>Visitor Count: <span>{$viewership_count->views}</span></p>";
+                            }
+
+                        ?>
                     </div>
                     <div class="col-md-4 col-12 px-md-0 py-md-0 py-2">
                         <div class="text-center">

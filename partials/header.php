@@ -2,6 +2,17 @@
         exit;
     }
 
+    // add unique count
+    if(! isset($_SESSION['count_set']) ) {
+        try {
+            PDO_ABS::getInstance()
+            ->query("UPDATE `options` SET meta_value = meta_value + 1 WHERE meta_key='site_count';");
+        } catch (\Exception $e) {}
+
+        // flag this session
+        $_SESSION['count_set'] = 1;
+    }
+
 ?>
 
 <!DOCTYPE html>
