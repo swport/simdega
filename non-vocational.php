@@ -35,7 +35,7 @@
                             <strong>01</strong>
                         </td>
                         <td>
-                            <a href="bachelors-of-arts.html">Bachelors in Arts</a>
+                            <a href="<?=BASE_URL?>bachelors-of-arts.php">Bachelors in Arts</a>
                         </td>
                     </tr>
                     <tr>
@@ -43,7 +43,7 @@
                             <strong>02</strong>
                         </td>
                         <td>
-                            <a href="bachelors-of-science.html">Bachelors in Science</a>
+                            <a href="<?=BASE_URL?>bachelors-of-science.php">Bachelors in Science</a>
                         </td>
                     </tr>
                     <tr>
@@ -51,7 +51,7 @@
                             <strong>03</strong>
                         </td>
                         <td>
-                            <a href="bachelors-of-commerce.html">Bachelors in Commerce</a>
+                            <a href="<?=BASE_URL?>bachelors-of-commerce.php">Bachelors in Commerce</a>
                         </td>
                     </tr>
                 </tbody>
