@@ -53,7 +53,7 @@
                     <!-- Nav -->
                     <nav class="js-mega-menu js-mega-menu-basic navbar navbar-expand-lg u-header__navbar px-0 hs-menu-initialized hs-menu-horizontal">
                         <!-- Navigation -->
-                         <!-- Logo -->
+                            <!-- Logo -->
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center p-0" href="index.html" aria-label="Front">
                                 <img src="/assets/images/logo.png" alt="Simdega College Simdega">
@@ -63,7 +63,7 @@
                                 <p>(A Constituent Unit, Ranchi University)</p>
                             </div>
                         </div>
-                       
+                        
                         <!-- End Logo -->
                         <div class="d-flex align-items-center flex-row-reverse">
                             <button class="navbar-toggler shadow-none rounded-0 pt-0 px-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
@@ -95,14 +95,14 @@
                                 </li>
                                 <!-- End Company -->
     
-                                 <!-- Gallery -->
-                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <!-- Gallery -->
+                                    <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="javascript:void(0)">Gallery</a>
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="gallerySubMenu"></span>
                                     <!-- Gallery - Submenu -->
                                     <ul id="gallerySubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Events</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Infrastructure</a> </li>
+                                        <li><a href="event.html" class="nav-link u-header__sub-menu-nav-link">Events</a> </li>
+                                        <li><a href="infrastructure.html" class="nav-link u-header__sub-menu-nav-link">Infrastructure</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
@@ -114,14 +114,14 @@
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="programmeSubMenu"></span>
                                     <!-- Programme - Submenu -->
                                     <ul id="programmeSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Vocational</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Non Vocational</a> </li>
+                                        <li><a href="vocational.html" class="nav-link u-header__sub-menu-nav-link">Vocational</a> </li>
+                                        <li><a href="non-vocational.html" class="nav-link u-header__sub-menu-nav-link">Non Vocational</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
                                 <!-- End Programme -->
 
-                                 <!-- College Staff -->
+                                    <!-- College Staff -->
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="javascript:void(0)">College Staff</a>
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="staffSubMenu"></span>
@@ -137,7 +137,7 @@
                                 <!-- Link -->
                                 <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="naac.html" class="nav-link u-header__nav-link">NAAC</a></li>
 
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link">Tender</a></li>
 
                                 <!-- End link -->
                             </ul>
@@ -164,7 +164,7 @@
 
         <!-- Teaching content -->
         <section class="teaching-content">
-           <div class="container">
+            <div class="container">
                 <div class="row py-md-5 py-4">
                     <div class="col-md-4 col-sm-6 col-xs-12 py-3">
                         <div class="h-100">
@@ -173,13 +173,13 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr Raj Kumar Sharma</h4>
+                                    <h4 class="py-2">Dr Loreng Tete</h4>
                                     <div class="mx-250 mx-auto">
-                                        <P><label class="mb-0">Deparment:</label> <span>English</span></p>
-                                        <P><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <P><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <P><label class="mb-0">Experience:</label> <span> 24 Years</span> </p> 
-                                        </div>
+                                        <p><label class="mb-0">Deparment:</label> <span>Kharia</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>40 Years</span> </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -191,12 +191,102 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr Ranjit Kumar Choudhary</h4>
+                                    <h4 class="py-2">Dr Ram Kumar Prasad</h4>
                                     <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Psychology</span></p>
+                                        <p><label class="mb-0">Deparment:</label> <span>Anthropology</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
                                         <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
+                                        <p><label class="mb-0">Experience:</label> <span>40 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Mr Birbal Nag</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Botany</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> M Sc</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>35 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Mr A K Bara</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Geology</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>35 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Dr A H Ansari</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Nagpuri</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> Ph.D</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>40 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Mr Shukhdeo Oraon</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Oraon</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>40 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Dr Sinigdha Kumari</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Botany</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -214,7 +304,7 @@
                                         <p><label class="mb-0">Deparment:</label> <span>Psychology</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
                                         <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -227,17 +317,18 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr R S Tete</h4>
+                                    <h4 class="py-2">Dr Devilal Prasad</h4>
                                     <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Political Science</span></p>
+                                        <p><label class="mb-0">Deparment:</label> <span>Hindi</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
+                                        <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-4 col-sm-6 col-xs-12 py-3">
                         <div class="h-100">
                             <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
@@ -245,30 +336,48 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr Rajender Kumar Baraik</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Political Science</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mrs Triyo Ekka</h4>
+                                    <h4 class="py-2">Mrs Tiriyo Ekka </h4>
                                     <div class="mx-250 mx-auto">
                                         <p><label class="mb-0">Deparment:</label> <span>History</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
                                         <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Dr A K Singh</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Philosophy</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> Ph.D</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
+                        <div class="h-100">
+                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
+                                <div class="profile-info img-3x mx-auto rounded-circle">
+                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="subheading text-capitalize text-center py-3">
+                                    <h4 class="py-2">Dr R K Chaudhary</h4>
+                                    <div class="mx-250 mx-auto">
+                                        <p><label class="mb-0">Deparment:</label> <span>Psychology</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
+                                        <p><label class="mb-0">Qualification:</label> <span> Ph.D</span></p> 
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -286,7 +395,7 @@
                                         <p><label class="mb-0">Deparment:</label> <span>Economics</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
                                         <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -299,129 +408,21 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr Vidya Sankar Kumar</h4>
+                                    <h4 class="py-2">Dr Brajesh Priyadershi</h4>
                                     <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Political Science</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr Devi Lal Prasad</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Hindi</span></p>
+                                        <p><label class="mb-0">Deparment:</label> <span>Physics</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
                                         <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr Ashok Kumar Singh</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Philosophy</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>12 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr A H Ansari</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Nagpuri</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>35 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr Loreng Tete</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Khariya</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> Ph D</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>35 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr Sukhdev Oraon</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Kurukh</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>35 Years</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Dr Ram Kumar Prasad</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Deparment:</label> <span>Anthropology</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant Professor </span></p>
-                                        <p><label class="mb-0">Qualification:</label> <span> M A</span></p> 
-                                        <p><label class="mb-0">Experience:</label> <span>34 Years</span> </p>
+                                        <p><label class="mb-0">Experience:</label> <span>16 Years</span> </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-           </div>
-        </section>
-        <!-- End Teaching content -->
+            </div>
+         </section>
+         <!-- End Teaching content -->
         
     </div>
     <!-- Footer Section -->
@@ -473,13 +474,13 @@
                                 </div>
                                 <ul class="footer-links-list"> 
                                     <li> 
-                                        <a href="javascript:void(0)">Fee Structure</a> 
+                                        <a href="vocational.html">Fee Structure</a> 
                                     </li>
-                                    <li> 
+                                    <!-- <li> 
                                         <a href="javascript:void(0)">Department</a> 
-                                    </li>
+                                    </li> -->
                                     <li> 
-                                        <a href="javascript:void(0)">College Infrastructure</a> 
+                                        <a href="infrastructure.html">College Infrastructure</a> 
                                     </li>
                                 </ul>
                             </div>
@@ -587,6 +588,10 @@
 
     <!-- Include FancyBox JS Library -->
     <script src="/assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- Include Masnory JS Library -->
+    <script src="/assets/js/masonry.pkgd.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.js"></script>
     
     <!-- Include Custom JS file -->
     <script src="/assets/js/custom.js"></script>

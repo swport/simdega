@@ -53,7 +53,7 @@
                     <!-- Nav -->
                     <nav class="js-mega-menu js-mega-menu-basic navbar navbar-expand-lg u-header__navbar px-0 hs-menu-initialized hs-menu-horizontal">
                         <!-- Navigation -->
-                         <!-- Logo -->
+                            <!-- Logo -->
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center p-0" href="index.html" aria-label="Front">
                                 <img src="/assets/images/logo.png" alt="Simdega College Simdega">
@@ -63,7 +63,7 @@
                                 <p>(A Constituent Unit, Ranchi University)</p>
                             </div>
                         </div>
-                       
+                        
                         <!-- End Logo -->
                         <div class="d-flex align-items-center flex-row-reverse">
                             <button class="navbar-toggler shadow-none rounded-0 pt-0 px-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
@@ -95,14 +95,14 @@
                                 </li>
                                 <!-- End Company -->
     
-                                 <!-- Gallery -->
-                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <!-- Gallery -->
+                                    <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="javascript:void(0)">Gallery</a>
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="gallerySubMenu"></span>
                                     <!-- Gallery - Submenu -->
                                     <ul id="gallerySubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Events</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Infrastructure</a> </li>
+                                        <li><a href="event.html" class="nav-link u-header__sub-menu-nav-link">Events</a> </li>
+                                        <li><a href="infrastructure.html" class="nav-link u-header__sub-menu-nav-link">Infrastructure</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
@@ -114,14 +114,14 @@
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="programmeSubMenu"></span>
                                     <!-- Programme - Submenu -->
                                     <ul id="programmeSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Vocational</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Non Vocational</a> </li>
+                                        <li><a href="vocational.html" class="nav-link u-header__sub-menu-nav-link">Vocational</a> </li>
+                                        <li><a href="non-vocational.html" class="nav-link u-header__sub-menu-nav-link">Non Vocational</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
                                 <!-- End Programme -->
 
-                                 <!-- College Staff -->
+                                    <!-- College Staff -->
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="javascript:void(0)">College Staff</a>
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="staffSubMenu"></span>
@@ -137,7 +137,7 @@
                                 <!-- Link -->
                                 <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="naac.html" class="nav-link u-header__nav-link">NAAC</a></li>
 
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link">Tender</a></li>
 
                                 <!-- End link -->
                             </ul>
@@ -274,13 +274,13 @@
                                 </div>
                                 <ul class="footer-links-list"> 
                                     <li> 
-                                        <a href="javascript:void(0)">Fee Structure</a> 
+                                        <a href="vocational.html">Fee Structure</a> 
                                     </li>
-                                    <li> 
+                                    <!-- <li> 
                                         <a href="javascript:void(0)">Department</a> 
-                                    </li>
+                                    </li> -->
                                     <li> 
-                                        <a href="javascript:void(0)">College Infrastructure</a> 
+                                        <a href="infrastructure.html">College Infrastructure</a> 
                                     </li>
                                 </ul>
                             </div>
@@ -388,6 +388,10 @@
 
     <!-- Include FancyBox JS Library -->
     <script src="/assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- Include Masnory JS Library -->
+    <script src="/assets/js/masonry.pkgd.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.js"></script>
     
     <!-- Include Custom JS file -->
     <script src="/assets/js/custom.js"></script>

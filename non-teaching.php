@@ -101,8 +101,8 @@
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="gallerySubMenu"></span>
                                     <!-- Gallery - Submenu -->
                                     <ul id="gallerySubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Events</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Infrastructure</a> </li>
+                                        <li><a href="event.html" class="nav-link u-header__sub-menu-nav-link">Events</a> </li>
+                                        <li><a href="infrastructure.html" class="nav-link u-header__sub-menu-nav-link">Infrastructure</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
@@ -114,8 +114,8 @@
                                     <span class="u-header__nav-link-toggle u-header__nav-link-icon" aria-haspopup="true" aria-expanded="false" aria-labelledby="programmeSubMenu"></span>
                                     <!-- Programme - Submenu -->
                                     <ul id="programmeSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer animated fadeOut" aria-labelledby="blogMegaMenu" style="min-width: 230px; display: none;">
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Vocational</a> </li>
-                                        <li><a href="javascript:void(0)" class="nav-link u-header__sub-menu-nav-link">Non Vocational</a> </li>
+                                        <li><a href="vocational.html" class="nav-link u-header__sub-menu-nav-link">Vocational</a> </li>
+                                        <li><a href="non-vocational.html" class="nav-link u-header__sub-menu-nav-link">Non Vocational</a> </li>
                                     </ul>
                                     <!-- End Submenu -->
                                 </li>
@@ -137,7 +137,7 @@
                                 <!-- Link -->
                                 <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="naac.html" class="nav-link u-header__nav-link">NAAC</a></li>
 
-                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link" target="_blank">Tender</a></li>
+                                <li class="nav-item u-header__nav-item u-header__nav-last-item"><a href="tendar.html" class="nav-link u-header__nav-link">Tender</a></li>
 
                                 <!-- End link -->
                             </ul>
@@ -173,7 +173,7 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr Odel Bara</h4>
+                                    <h4 class="py-2">Mr R S Rai</h4>
                                     <div class="mx-250 mx-auto">
                                         <p><label class="mb-0">Division:</label> <span>General Section</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Head Assistant</span></p>
@@ -193,22 +193,6 @@
                                     <div class="mx-250 mx-auto">
                                         <p><label class="mb-0">Division:</label> <span>General Section</span></p>
                                         <p><label class="mb-0">Designation:</label> <span>Leave Assistant</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr R S Roy</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Division:</label> <span>General Section</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Assistant</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -333,22 +317,6 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr Herman Tirkey</h4>
-                                    <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Division:</label> <span>Cash Counter</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Counter Assistant</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 py-3">
-                        <div class="h-100">
-                            <div class="info-box position-relative bottom-border-up transition-all-3ms h-100 p-3 p-sm-4">
-                                <div class="profile-info img-3x mx-auto rounded-circle">
-                                    <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="subheading text-capitalize text-center py-3">
                                     <h4 class="py-2">Mr Deepak Manjhi</h4>
                                     <div class="mx-250 mx-auto">
                                         <p><label class="mb-0">Division:</label> <span>Cash Counter</span></p>
@@ -381,10 +349,10 @@
                                     <img src="/assets/images/user.png" alt="Pics" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="subheading text-capitalize text-center py-3">
-                                    <h4 class="py-2">Mr V C Jha</h4>
+                                    <h4 class="py-2">Mr Rohit Lakra</h4>
                                     <div class="mx-250 mx-auto">
-                                        <p><label class="mb-0">Division:</label> <span>Library</span></p>
-                                        <p><label class="mb-0">Designation:</label> <span>Libraria</span></p>
+                                        <p><label class="mb-0">Division:</label> <span>General Section</span></p>
+                                        <p><label class="mb-0">Designation:</label> <span>clerk</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -446,13 +414,13 @@
                                 </div>
                                 <ul class="footer-links-list"> 
                                     <li> 
-                                        <a href="javascript:void(0)">Fee Structure</a> 
+                                        <a href="vocational.html">Fee Structure</a> 
                                     </li>
-                                    <li> 
+                                    <!-- <li> 
                                         <a href="javascript:void(0)">Department</a> 
-                                    </li>
+                                    </li> -->
                                     <li> 
-                                        <a href="javascript:void(0)">College Infrastructure</a> 
+                                        <a href="infrastructure.html">College Infrastructure</a> 
                                     </li>
                                 </ul>
                             </div>
@@ -560,6 +528,10 @@
 
     <!-- Include FancyBox JS Library -->
     <script src="/assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- Include Masnory JS Library -->
+    <script src="/assets/js/masonry.pkgd.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.js"></script>
     
     <!-- Include Custom JS file -->
     <script src="/assets/js/custom.js"></script>
