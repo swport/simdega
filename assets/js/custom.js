@@ -93,19 +93,106 @@ $(document).ready(function(){
 
 
     // Visitor Count
-    var n = localStorage.getItem('on_load_counter');
+    // var n = localStorage.getItem('on_load_counter');
 
-    if (n === null) {
-        n = 1000;
+    // if (n === null) {
+    //     n = 1000;
+    // }
+    // n++;
+
+    // // localStorage.setItem("on_load_counter", n);
+
+    // // document.getElementById('CounterVisitor').innerHTML = n;
+
+
+    // $('#send').on('click', function(){
+    //     $('.success-msg').show();
+    // });
+
+    // submit contact form
+    var ajaxGoing = false;
+
+    function Modal(modal) {
+        this.modal = modal;
     }
-    n++;
 
-    localStorage.setItem("on_load_counter", n);
+    Modal.prototype.show = function(html) {
+        this.modal.find(".modal-body")
+            .html(html);
+        this.modal.modal("show");
+    };
 
-    document.getElementById('CounterVisitor').innerHTML = n;
+    $("#contact-form").submit(function(e) {
+        e.preventDefault();
 
+        if( ajaxGoing ) {
+            return;
+        }
 
-    $('#send').on('click', function(){
-        $('.success-msg').show();
-    })
+        var success_msg = "Successfully Submitted. Thank You.";
+        var self = this;
+        var modal = new Modal( $("#responseModalBox") );
+        var form = new FormData(this);
+        form.append('is_ajax', 1);
+
+        $.ajax({
+            url: $(self).attr("action").trim(),
+            type: "POST",
+            data: form,
+            processData: false,
+            contentType: false,
+            beforeSend: function() {
+                ajaxGoing = true;
+
+                $(self).css({'pointer-events': 'none', 'opacity': 0.6});
+                $(self).find("button[type=submit]").text("Sending...");
+                $('.success-msg').hide();
+                $('.fail-msg').hide();
+                $(".fail-errors").hide();
+            }
+        })
+        .done(function(response) {
+            var message = "";
+
+            if( response ) {
+                if( response.status ) {
+                    $('.success-msg').show();
+                    modal.show(
+                        "<div class='text-success'><h3><i class=\"fa fa-check tick success\" aria-hidden=\"true\"></i>"+success_msg+"</h3></div>"
+                    );
+                    $(self).trigger("reset");
+                } else if( response.data && !$.isEmptyObject(response.data) ) {
+                    message += "<ul>";
+                    var key = Object.keys(response.data)[0];
+                    message += key.toUpperCase() + ": " + response.data[key];
+                    message += "</ul>";
+
+                    $(".fail-errors").html(message).show();
+                    $("input[name='"+ key +"']").focus();
+                } else {
+                    // something went wrong
+                    // a session may have expired
+                    modal.show(
+                        "<div class='text-danger'><h3><i class=\"fa fa-times tick danger\" aria-hidden=\"true\"></i>Something Went Wrong!!</h3></div>"
+                    );
+                    $('.fail-msg').show();
+                }
+            }
+        })
+        .fail(function() {
+            // something went wrong
+            modal.show(
+                "<div class='text-danger'><h3><i class=\"fa fa-times tick danger\" aria-hidden=\"true\"></i>Something Went Wrong!!</h3></div>"
+            );
+            // a session may have expired
+            window.reload();
+            $('.fail-msg').show();
+        })
+        .always(function() {
+            ajaxGoing = false;
+
+            $(self).css({'pointer-events': 'auto', 'opacity': 1});
+            $(self).find("button[type=submit]").text("Send Message");
+        });
+    });
 });
