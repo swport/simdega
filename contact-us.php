@@ -69,7 +69,7 @@
             $values2 = rtrim($values2, ',');
 
             $stmt = PDO_ABS::getInstance()
-                ->prepare("INSERT INTO `contacts`($values1) VALUES($values2)");
+                ->prepare("INSERT INTO `contacts`($values1,created_at) VALUES($values2,'".date('Y-m-d H:i:s')."')");
 
             if( $stmt ) {
                 // bind values
