@@ -16,8 +16,13 @@ if( isset($_GET['logout']) ) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ! isset($_SESSION['auth_user'])) {
     // validate request
     if(isset($_POST['_token']) && hash_equals($_SESSION['token'], $_POST['_token']) ) {
+        // get password from database and verify
+        $result = PDO_ABS::getInstance()
+            ->query("SELECT meta_value AS hashed_password FROM `options` WHERE `meta_key`='site_admin_password'")
+            ->fetchObject();
+
         // it's a valid request; make a login attempt
-        if( $_POST['password'] === 'pDt$6QEhpfgJ%cE$WBk' ) {
+        if( ! empty($result) && password_verify($_POST['password'], $result->hashed_password) ) {
             $_SESSION['auth_user'] = 'tpk$fQ%c5V&b';
 
             header("Location: admin.php"); exit;
